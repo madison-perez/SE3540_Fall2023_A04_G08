@@ -1,0 +1,3 @@
+C:/Users/madis/Desktop/SE_A4/Build/CMakeFiles/yahtzee.dir
+C:/Users/madis/Desktop/SE_A4/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/madis/Desktop/SE_A4/Build/CMakeFiles/ZERO_CHECK.dir
