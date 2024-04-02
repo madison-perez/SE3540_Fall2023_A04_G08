@@ -1,0 +1,46 @@
+# Yahtzee Game
+
+## Description
+Yahtzee is a classic dice game where players roll five dice to achieve various combinations and earn points. The game consists of 13 rounds, and each player takes turns rolling the dice to score points based on different combinations.
+
+## How to Play
+1. **Setup:**
+    - Decide the number of players participating in the game.
+    - Enter the names of each player.
+    - Each player's total score starts at 0.
+
+2. **Gameplay:**
+    - The game consists of 13 rounds.
+    - In each round, every player takes a turn to roll five dice.
+    - After rolling, the player can choose to keep some dice and reroll others up to two more times, aiming to achieve specific combinations for maximum points.
+    - The available combinations and their corresponding scores are:
+        - Ones, Twos, Threes, Fours, Fives, Sixes: Sum of the respective numbers rolled.
+        - Three of a Kind: Sum of all dice if at least three dice have the same value.
+        - Four of a Kind: Sum of all dice if at least four dice have the same value.
+        - Full House: 25 points if three of a kind and a pair are rolled.
+        - Small Straight: 30 points if four sequential dice are rolled.
+        - Large Straight: 40 points if five sequential dice are rolled.
+        - Yahtzee: 50 points if all five dice have the same value.
+        - Chance: Sum of all dice regardless of their values.
+    - After each roll, the player must choose a scoring category to allocate their points. Once a category is chosen, it cannot be used again in subsequent rounds.
+    - The game automatically keeps track of each player's total score.
+
+3. **End of Game:**
+    - After 13 rounds, the game ends, and the final scores of all players are displayed.
+    - The player with the highest total score wins the game.
+
+## Running the Code
+To run the Yahtzee game code:
+1. Compile the C++ code using a C++ compiler (e.g., g++):
+
+    ```
+    g++ -o yahtzee yahtzee.cpp
+    ```
+
+2. Execute the compiled binary:
+
+    ```
+    ./yahtzee
+    ```
+
+3. Follow the prompts to enter the number of players and their names, then play the game as described above.
